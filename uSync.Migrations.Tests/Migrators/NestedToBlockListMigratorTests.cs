@@ -40,7 +40,7 @@ public class NestedToBlockListMigratorTests : MigratorTestBase
             });
             
     private SyncMigrationDataTypeProperty GetMigrationDataTypePropertyWithMultipleContentTypes() =>
-        new SyncMigrationDataTypeProperty("RadioButtonList", UmbConstants.PropertyEditors.Aliases.NestedContent,
+        new SyncMigrationDataTypeProperty("NestedContent", UmbConstants.PropertyEditors.Aliases.NestedContent,
             "Nvarchar",
             new List<PreValue>
             {
